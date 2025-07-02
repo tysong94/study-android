@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/inv_quotes"
+        android:enabled="true"
+        android:icon="@drawable/ic_quote"
+        android:title="시세"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/inv_info"
+        android:enabled="true"
+        android:icon="@drawable/ic_invinfo"
+        android:title="투자 정보"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/inv_more"
+        android:enabled="true"
+        android:icon="@drawable/ic_more"
+        android:title="더보기"
+        app:showAsAction="ifRoom" />
+
+</menu>
